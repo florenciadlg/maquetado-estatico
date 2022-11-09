@@ -124,3 +124,15 @@ a.link-volver{
     transform: translateY(-2%);
 }
 
+.nav-link{
+    color: rgb(108, 96, 110) !important
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    --bs-nav-pills-link-active-bg: rgba(203, 140, 203, 0.449);
+}
+
+.regresar{
+    color: rgb(103, 65, 103);
+    text-decoration: none
+}
