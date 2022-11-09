@@ -1,0 +1,126 @@
+
+
+.nav-color{
+    background-color: white;
+}
+
+.nav-color2{
+    background-color: rgb(152, 77, 150);
+}
+
+.candado{
+    background-color: transparent;
+    border: none !important;
+    color: rgba(128, 128, 128, 0.411) !important;
+    margin-left: 1rem;
+    margin-right: 1rem;
+ }
+
+ .candado2{
+    background-color: transparent;
+    border: none !important;
+    color: rgba(39, 36, 36, 0.653) !important;
+    margin-left: 1rem;
+    margin-right: 1rem;
+ }
+
+ .github{
+    color:rgb(178, 133, 221);
+ }
+
+ .github:hover {
+    color: rgb(148, 116, 142) ;
+ }
+
+ .boton-banner { 
+    background-color: rgb(237, 230, 240) !important; 
+    border: none;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    
+ }
+
+ .boton-banner:hover {
+    background-color: rgb(204, 163, 221) !important;
+    
+ }
+
+a:hover {
+    color: black !important;
+}
+
+.login-buton{
+    background-color: rgb(135, 71, 135) !important;
+   color:aliceblue !important;
+   border: none !important;
+}
+
+section.banner{
+    background-image: url(../img/banner5.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+}
+
+.navbar-nav{
+    text-align: centered;
+}
+
+.volver-arriba{
+    text-align: right;
+    margin-right: 1rem;
+    
+}
+
+a.link-volver{
+   color: rgb(86, 49, 120)
+}
+
+.navbar-center{
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+   
+}
+
+.items-navbar{
+    position: absolute;
+    right: 10%;
+    }
+ 
+.intro-banner{
+    position: absolute;
+    text-align: center;
+    padding-top: 12%;
+    padding-left: 12%;
+}
+
+.contacto{
+    background-color: rgb(146, 119, 171);
+}
+
+.satisfaccion{
+    font-size: medium;
+}
+
+.whatsapp{
+    color:rgb(58, 196, 115);
+}
+
+.datos-contacto{
+   text-align: center;
+   padding-bottom: 2rem;
+}
+
+.card:hover{
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2%);
+}
+
