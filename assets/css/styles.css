@@ -25,24 +25,28 @@
  }
 
  .github{
-    color:rgb(178, 133, 221);
- }
+    color:rgb(178, 133, 221);  
+}
 
  .github:hover {
     color: rgb(148, 116, 142) ;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.2);
  }
 
- .boton-banner { 
+ section[id] {
+    scroll-margin-top: 6rem;
+ }
+ 
+.boton-banner { 
     background-color: rgb(237, 230, 240) !important; 
     border: none;
     margin-right: 1rem;
     margin-top: 1rem;
-    
  }
 
  .boton-banner:hover {
     background-color: rgb(204, 163, 221) !important;
-    
  }
 
 a:hover {
@@ -87,13 +91,12 @@ a.link-volver{
     position: relative;
     left: 50%;
     transform: translatex(-50%);
-   
 }
 
 .items-navbar{
     position: absolute;
     right: 10%;
-    }
+}
  
 .intro-banner{
     position: absolute;
