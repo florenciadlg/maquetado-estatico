@@ -139,3 +139,15 @@ a.link-volver{
     color: rgb(103, 65, 103);
     text-decoration: none
 }
+
+
+.boton-edicion{
+    --bs-btn-border-color: none !important;
+}
+    
+
+
+/* PRUEBA DE NAVBAR SIN TOGGLE */
+.ps-nav{
+    padding-left: 25% !important;
+} 
