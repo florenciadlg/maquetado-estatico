@@ -144,6 +144,10 @@ a.link-volver{
 .boton-edicion{
     --bs-btn-border-color: none !important;
 }
+
+.boton-abajo{
+    margin-left: 80%;
+}
     
 
 
