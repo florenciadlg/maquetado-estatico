@@ -143,6 +143,20 @@ a.link-volver{
     margin-left: 80%;
 }
     
+.bienvenida-banner{
+    text-shadow: -1px 0 white, 0 1px white,
+    1px 0 white, 0 -1px white;
+}
+
+.foto-perfil{
+    width: 13rem;
+}
+
+.tarjetas-proyectos{
+    justify-content: center;
+    display: flex;
+}
+
 
 /* .navbar-center{ 
     position: relative;
