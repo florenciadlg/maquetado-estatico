@@ -20,48 +20,57 @@
 <body>
     <a name="inicio"></a>
     <header> 
-<!-- BARRA NAVEGACIÓN -->
-        <nav class="navbar navbar-expand-lg fixed-top nav-color">
-            <div class="container-fluid">
-              <img src="/assets/img/arg-programa.png" alt="logo argentina programa" height="50rem">
 
-              <!-- Redes sociales-->
-              <div class="items-navbar">
-                 <a href="https://github.com/florenciadlg" target="_blank"><i class="fa-brands fa-github fa-2x github"></i></a>
-                <!-- Button trigger modal de Administrador Login -->
-                <i data-bs-toggle="modal" data-bs-target="#loginModal" class="fa-solid fa-lock fa-1x candado"></i> 
-               </div>
-
-               <!-- Toggler responsive -->
+      <!-- BARRA NAVEGACIÓN -->
+      <nav class="navbar navbar-expand-lg fixed-top nav-color">
+          <div class="container-fluid">
+      
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarToggler">
-                
-                
-              <!-- Barra de Navegación secciones -->
-                <ul class="navbar-nav ms-5 ps-1">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#inicio">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#sobre-mi">Sobre mí</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#proyectos">Proyectos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#aprendizaje">Aprendizaje</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contacto">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-                      
-          </div>
-        </nav>
-    </header>
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            <!-- Logos Argentina Programa -->
+            <img src="/assets/img/arg-programa.png" alt="logo argentina programa" height="50rem" class="d-none d-lg-block">
+            <img src="/assets/img/arg-programa2.png" alt="logo argentina programa" height="50rem" class="d-block d-lg-none">
+      
+            <!-- Redes sociales navbar-->
+            <div class="items-navbar d-none d-lg-block">
+               <a href="https://github.com/florenciadlg" target="_blank"><i class="fa-brands fa-github fa-2x redes"></i></a>
+              <!-- Button trigger modal de Administrador Login navbar-->
+              <i data-bs-toggle="modal" data-bs-target="#loginModal" class="fa-solid fa-lock fa-1x candado"></i> 
+             </div>
+            
+            <div class="collapse navbar-collapse" id="navbarToggler">  
+            <!-- Barra de Navegación secciones -->
+              <ul class="navbar-nav ms-5 ps-1">
+                <li class="nav-item">
+                  <a class="nav-link" href="#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#aprendizaje">Aprendizaje</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+              </ul>
+              <!-- Redes y login en toggler -->
+              <div class="d-block d-lg-none ms-5">
+              <br>
+              <!-- Button trigger modal de Administrador Login -->
+              <p data-bs-toggle="modal" data-bs-target="#loginModal"><i class="fa-solid fa-lock fa-lg candado3 ms-1 me-2"></i>Administrador</p> 
+              <!-- Redes sociales toggler -->
+              <a href="https://github.com/florenciadlg" target="_blank"><i class="fa-brands fa-github fa-2x redes mt-2 mb-3"></i></a>
+            </div>
+            </div>
+                    
+        </div>
+      </nav>
+          </header>
 
 <!-- BANNER -->
 <section id="banner" class="banner">

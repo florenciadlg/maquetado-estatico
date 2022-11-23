@@ -24,11 +24,17 @@
     margin-right: 1rem;
  }
 
- .github{
+ .candado3{
+    background-color: transparent;
+    border: none !important;
+    color: rgba(39, 36, 36, 0.653) !important;
+ }
+
+ .redes{
     color:rgb(178, 133, 221);  
 }
 
- .github:hover {
+ .redes:hover {
     color: rgb(148, 116, 142) ;
     transition: transform 0.3s ease-in-out;
     transform: scale(1.2);
@@ -89,7 +95,7 @@ a.link-volver{
 
 .items-navbar{
     position: absolute;
-    right: 10%;
+    right: 3%;
 }
  
 .intro-banner{
@@ -140,8 +146,9 @@ a.link-volver{
 }
 
 .boton-abajo{
-    margin-left: 80%;
+    margin-left: 69%;
 }
+
     
 .bienvenida-banner{
     text-shadow: -1px 0 white, 0 1px white,
@@ -157,6 +164,10 @@ a.link-volver{
     display: flex;
 }
 
+.navbar{
+    --bs-navbar-toggler-border-color: transparent!important;
+    --bs-navbar-toggler-focus-width:0rem !important;
+}
 
 /* .navbar-center{ 
     position: relative;
@@ -164,7 +175,14 @@ a.link-volver{
     transform: translatex(-50%);
 }*/
 
+
+
+
+
+
+
 /* PRUEBA DE NAVBAR SIN TOGGLE */
 .ps-nav{
     padding-left: 25% !important;
 } 
+
