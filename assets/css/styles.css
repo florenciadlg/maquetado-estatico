@@ -135,7 +135,7 @@ a.link-volver{
     --bs-nav-pills-link-active-bg: rgba(203, 140, 203, 0.449);
 }
 
-.regresar{
+.logout{
     color: rgb(103, 65, 103);
     text-decoration: none
 }
@@ -168,21 +168,4 @@ a.link-volver{
     --bs-navbar-toggler-border-color: transparent!important;
     --bs-navbar-toggler-focus-width:0rem !important;
 }
-
-/* .navbar-center{ 
-    position: relative;
-    left: 50%;
-    transform: translatex(-50%);
-}*/
-
-
-
-
-
-
-
-/* PRUEBA DE NAVBAR SIN TOGGLE */
-.ps-nav{
-    padding-left: 25% !important;
-} 
 
